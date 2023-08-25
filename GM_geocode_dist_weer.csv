@@ -1,0 +1,12 @@
+"Dataset with information about the distance in KM between each Municipailty in the Netherlands and each KNMI weather monitor (wind, sunshine, humidity monitors/ temperature monitors in a separate dataset).",
+Information about KNMI monitor location and daily weather information is openly available at https://daggegevens.knmi.nl/klimatologie/daggegevens  ,
+,
+Variable name,Explanation
+Gemeente2020,"Municipality number as registered in CBS Open Data (leading zeroes were removed), see https://www.cbs.nl/nl-nl/onze-diensten/methoden/classificaties/overig/gemeentelijke-indelingen-per-jaar/indeling-per-jaar/gemeentelijke-indeling-op-1-januari-2020"
+Gemeentenaam2020,Municipality name
+text_to_geocode,Text used to get latitude and longitude in R via sp package.
+lat,Latitude Municipality
+long,Longitude Municipality
+Variables 240 to 391,"Distance in KM between monitor number, e.g., monitor 235 and Municipality centroid."
+STN_min_dist,Variable with minimum distance to Municipality cenrtoid across all monitors.
+STN_min_name,Name (number) of the closest monitor to each Municipality
